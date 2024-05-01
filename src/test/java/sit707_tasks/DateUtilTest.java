@@ -1,7 +1,5 @@
 package sit707_tasks;
 
-	
-
 import static org.junit.Assert.*;
 import org.junit.Test;
 
@@ -143,7 +141,7 @@ public class DateUtilTest {
             dateUtil.increment();
             System.out.println("after increment :-" + dateUtil);
             
-assertEquals("Day after increment should be 1", 1, dateUtil.getDay());
+            assertEquals("Day after increment should be 1", 1, dateUtil.getDay());
             assertEquals("Month should change to March", 3, dateUtil.getMonth());
             assertEquals("Year should remain 2021", 2021, dateUtil.getYear());
         }
